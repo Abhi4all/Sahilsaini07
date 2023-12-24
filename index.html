@@ -1,0 +1,293 @@
+
+         <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[Sahil saini] - Sports Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            background: url(white2.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        header {
+            background-color: black;
+            color: white;
+            padding: 1em;
+            text-align: center;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        #personal-info #box1 h2{
+            color:#333;
+            font-size: large;
+            font-weight: 500;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        #personal-info {
+            font-weight: 300;
+            display:flex;
+            justify-content:space-between;
+            align-items: center;
+            background: transparent;
+            border: 1px ridge whitesmoke;
+            transition: border 0.3s ease-in-out;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        #personal-info:hover {
+            border: 2px solid #000; /* Change the border color on hover */
+        }
+
+        #personal-info h2{
+            font-weight: 300;
+        }
+
+        #personal-info img {
+            height: 300px;
+        }
+
+        .imgsec{
+            display:flex;
+            justify-content:space-around;
+            align-items: center;
+        }
+
+        .imgsec img{
+            height: 300px;
+            width: 250px;
+        }
+
+        .imgsec img:hover{
+            height: 330px;
+            width: 265px; 
+        }
+
+        #career-highlights{
+            background: transparent;
+            border: 1px ridge whitesmoke;
+            transition: border 0.3s ease-in-out;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        
+        #career-highlights:hover{
+            border: 2px solid #000;
+        }
+
+        #career-highlights ul{
+            display:flex;
+            flex-direction: column;
+            justify-content:space-around;
+            align-items: center;
+            
+        }
+
+        #career-highlights h2{
+        text-align: center;
+        font-weight: 300;
+        }
+
+        #photo-gallery{
+            background: transparent;
+            border: 1px ridge whitesmoke;
+            transition: border 0.3s ease-in-out;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        #photo-gallery:hover{
+            border: 2px solid #000;
+        }
+
+        #photo-gallery h2{
+        text-align: center;
+        font-weight: 300;
+        }
+
+        #photo-gallery .imgsec img{
+            border: 0.1px ridge whitesmoke;
+        }
+
+        #bottem {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 25px;
+            padding-bottom: 15px;
+            height: 50px;
+        }
+
+        #bottem a img{
+            height: 50px;
+            width: 50px;
+        }
+
+        #bottem a img:hover{
+            height: 60px;
+            width: 60px;
+        }
+       
+        footer{
+            background-color: black;
+            color: white;
+            padding: 1em;
+            height: 200px;
+            display: flex;
+            flex-direction: row;
+            justify-content:space-between;
+            align-items: center
+        }
+
+        #contact{
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        #contact h1{
+            text-align: center;
+            color: beige;
+            padding-right: 150px;
+            font-weight: 500;
+        }
+
+        #contact p{
+            font-size: large;
+            font-weight: 300;
+        }
+        
+
+        @media only screen and (max-width: 800px) {
+    .imgsec {
+        display:flex;
+        flex-direction: column;
+        justify-content:space-around;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .imgsec img{
+        width: 410px;
+        height: 350px;
+    }
+
+    .imgsec img:hover{
+        width: 420px;
+        height: 360px;
+    }
+
+    .contact1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #contact h1{
+        padding-right: 10px;
+    }
+
+    #personal-info img{
+        width: 275px;
+    }
+
+ 
+  }
+
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Sahil Saini - Professional Cricket Player</h1>
+    </header>
+
+    <section id="personal-info">
+        <div id="box1">
+        <h2>Personal Information</h2>
+        <ul>
+            <li><strong>Date of Birth:</strong> 12-07-2001 </li>
+            <li><strong>Nationality:</strong> Indian</li>
+            <li><strong>Height:</strong> 6 feet 2 inches</li>
+            <li><strong>Weight:</strong> 70kg</li>
+            <li><strong>Player:</strong> Right hand Batsman And Right arm quickbowler </li>
+        </ul>
+    </div>
+        <div id="front-img">
+            <img id="myImage"src="front.jpg" alt="sportsman image" onmouseover="changeImage('ffff.jpg')" onmouseout="resetImage('front.jpg')">
+        </div>
+    </section>
+
+    <section id="career-highlights">
+        <h2>Career Highlights</h2>
+        <ul>
+            <li><strong>#2021</strong> - Saharanwas tournament won by an exceptional performance</li>
+            <li><strong>#2023</strong> - Indira Gandhi university Player</li>
+            <!-- Add more achievements as needed -->
+        </ul>
+    </section>
+
+    <section id="photo-gallery">
+        <h2>Photo Gallery</h2>
+        <div class="imgsec">
+            <img src="achi1.webp" alt="Photo 1">
+            <img src="achi2.webp" alt="Photo 2">
+            <img src="achi3.jpg" alt="Photo 3">
+            <!-- Add more images as needed -->
+        </div>
+    </section>
+
+    
+        <div id="bottem">
+            <a href="https://www.facebook.com/profile.php?id=100011383780385&mibextid=ZbWKwL" role="button"
+            ><img src="facebook.svg"></a> 
+            <a style="color:#55acee;" href="https://instagram.com/s.saini_19?igshid=NzZlODBkYWE4Ng==" role="button"
+            ><img src="instagram.svg"></a>
+            <a style="color:#ac2bac;" href="https://youtube.com/@S.Saini_19?si=HOhC2HQ47BCYJo2C" role="button"
+            ><img src="youtube.svg"></a>
+            <a style="color:#3b5998;" href="mailto:saini3642999@gmail.com" role="button"
+            ><img src="envelope-solid.svg"></a>
+        
+        </div>
+        <footer class="contact1">
+            <div>
+        <p>&copy; 2024 Sahil Saini - Sports Portfolio</p>
+    </div>
+        <div id="contact">
+            <h1>Contact Info.</h1>
+            <p>Mob no. 9499366953 <br>Address H.no.6039,Chhipatwara,<br>Near Punjabi Dharmshala<br>Rewari-123401,<br>Haryana</p>
+        </div>
+    </footer>
+    
+    <script src="style.js"></script>
+</body>
+</html>
